@@ -68,12 +68,12 @@
   <distributionManagement>
 		 <snapshotRepository>
 		    <id>nexusRepo</id>
-		    <url>http://172.31.36.207:8081/repository/maven-snapshots/</url>
+		    <url>http://192.168.5.172:8081/repository/test-job-2-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexusRepo</id>
-		    <url>http://172.31.36.207:8081/repository/maven-releases/</url>
+		    <url>http://192.168.5.172:8081/repository/test-job-1-releases/</url>
 		</repository>
   	</distributionManagement>
 </project>
